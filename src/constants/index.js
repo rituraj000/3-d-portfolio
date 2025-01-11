@@ -148,7 +148,7 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Ritu raj does.",
-      name: "Chris Brown",
+      name: "Shivam Singh",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -156,7 +156,7 @@ import {
     {
       testimonial:
         "After Ritu raj optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "Shantanu Sharma",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
