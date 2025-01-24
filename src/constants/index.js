@@ -186,25 +186,29 @@ import {
       source_code_link: "https://github.com/rituraj000/3-d-portfolio ",
     },
     {
-      name: "E-Commerse Platform",
+      name: "IT-Solutions",
       description:
-        " Built a fully functional eCommerce application using React and Commerce.js, featuring seamless product management and Stripe integration for secure payment processing. ",
+        "IT Solutions project is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) to deliver efficient IT services. It incorporates JWT authentication to ensure secure user login and data protection, enhancing the platform's reliability and security. ",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Stripe API",
+          name: "NODE-JS",
           color: "green-text-gradient",
         },
         {
-          name: "Java script",
+          name: "EXPRESS",
           color: "pink-text-gradient",
+        },
+        {
+          name: "MONGODB",
+          color: "blue-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: " ",
+      source_code_link: "https://github.com/rituraj000/IT-Solutions ",
     },
     {
       name: "Omni Solve Coal Mine Alerting System",
