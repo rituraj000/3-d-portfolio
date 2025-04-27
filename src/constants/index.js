@@ -227,7 +227,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        na,
+      
         me: "Node.js",
         color: "blue-text-gradient",
       },
