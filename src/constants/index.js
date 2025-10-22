@@ -108,16 +108,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "LearnTricK EduTech",
+    title: "Full Stack Web Developer",
+    company_name: "AWADH, IIT ROPAR",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Feb 2024 - March 2024",
+    date: "JAN 2024 - Present",
     points: [
-      "Developing and maintaining web applications using Html, CSS, Java Script and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained the Cloud Sense View web application using React, Node.js, and Express, enabling users to monitor real-time weather station data such as temperature, humidity, wind speed, and direction.",
+      "Integrated AWS DynamoDB for efficient storage and retrieval of sensor data, ensuring seamless user authentication, account management, and secure data access through username/password login.",
+      "Implemented features allowing users to view available products, manage their subscribed weather stations, and download historical forecast data for up to one month, improving user experience and data accessibility.",
     ],
   },
   {
@@ -163,26 +162,66 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "3-D Portfolio",
+{
+  name: "UPLIVE - The Indian Social Media",
+  description: "A full-stack social networking platform built with the MERN stack and TypeScript, enabling users to share posts, stories, and messages in real time. It features secure authentication (JWT, OTP via Twilio/MSG91), cloud-based media handling (Cloudinary), and instant messaging through Socket.io. The frontend is mobile-first and responsive, powered by React, React Query, and Material-UI for optimized performance and user experience. The app supports role-based access control, in-app notifications, and automated CI/CD deployments via GitHub Actions and Vercel.",
+  tags: [
+    {
+      name: "MERN STACK + TYPESCRIPT",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TWILIO/MSG91",
+      color: "green-text-gradient",
+    },
+    {
+      name: "CLOUDINARY",
+      color: "pink-text-gradient",
+    },
+     {
+      name: "SOCKET.IO",
+      color: "blue-text-gradient",
+    },
+     {
+      name: "REACT QUERY",
+      color: "green-text-gradient",
+    },
+     {
+      name: "MATERIAL-UI",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: uplive,
+  source_code_link: "https://github.com/rituraj000/UPLIVE--The-Indian-Social-Media ",
+},
+{
+    name: "Task Manager",
     description:
-      "A dynamic 3D portfolio built using Three.js, React Three Fiber, TailwindCSS, and Framer Motion, showcasing interactive 3D models, animations, and responsive design. It includes email integration, performance optimizations, and scalable code practices for a professional user experience.",
+      "Designed and developed a full-stack Task Manager application using Node.js, Express, MongoDB, and React, featuring user authentication, task creation, updating, deletion, and user-specific task views. ",
     tags: [
       {
-        name: "react",
+        name: "MongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "three.js",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+       {
+      name: "JWT Authentication",
+      color: "blue-text-gradient",
+    },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/rituraj000/3-d-portfolio ",
+    image: tripguide,
+    source_code_link: "https://github.com/rituraj000/Task-Manager",
   },
   {
     name: "IT-Solutions",
@@ -205,36 +244,37 @@ const projects = [
         name: "MONGODB",
         color: "blue-text-gradient",
       },
+       {
+      name: "JWT Authentication",
+      color: "green-text-gradient",
+    },
     ],
     image: jobit,
     source_code_link: "https://github.com/rituraj000/IT-Solutions ",
   },
+  
   {
-    name: "Task Manager",
+    name: "3-D Portfolio",
     description:
-      "Designed and developed a full-stack Task Manager application using Node.js, Express, MongoDB, and React, featuring user authentication, task creation, updating, deletion, and user-specific task views. ",
+      "A dynamic 3D portfolio built using Three.js, React Three Fiber, TailwindCSS, and Framer Motion, showcasing interactive 3D models, animations, and responsive design. It includes email integration, performance optimizations, and scalable code practices for a professional user experience.",
     tags: [
       {
-        name: "MongoDB",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Expree.js",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "React",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
-      {
-      
-        me: "Node.js",
-        color: "blue-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/rituraj000/Task-Manager",
+    image: carrent,
+    source_code_link: "https://github.com/rituraj000/3-d-portfolio ",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
