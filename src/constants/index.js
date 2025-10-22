@@ -21,6 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
+  uplive,
   tripguide,
   threejs,
 } from "../assets";
@@ -162,39 +163,41 @@ const testimonials = [
 ];
 
 const projects = [
-{
-  name: "UPLIVE - The Indian Social Media",
-  description: "A full-stack social networking platform built with the MERN stack and TypeScript, enabling users to share posts, stories, and messages in real time. It features secure authentication (JWT, OTP via Twilio/MSG91), cloud-based media handling (Cloudinary), and instant messaging through Socket.io. The frontend is mobile-first and responsive, powered by React, React Query, and Material-UI for optimized performance and user experience. The app supports role-based access control, in-app notifications, and automated CI/CD deployments via GitHub Actions and Vercel.",
-  tags: [
-    {
-      name: "MERN STACK + TYPESCRIPT",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "TWILIO/MSG91",
-      color: "green-text-gradient",
-    },
-    {
-      name: "CLOUDINARY",
-      color: "pink-text-gradient",
-    },
-     {
-      name: "SOCKET.IO",
-      color: "blue-text-gradient",
-    },
-     {
-      name: "REACT QUERY",
-      color: "green-text-gradient",
-    },
-     {
-      name: "MATERIAL-UI",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: uplive,
-  source_code_link: "https://github.com/rituraj000/UPLIVE--The-Indian-Social-Media ",
-},
-{
+  {
+    name: "UPLIVE - The Indian Social Media",
+    description:
+      "A full-stack social networking platform built with the MERN stack and TypeScript, enabling users to share posts, stories, and messages in real time. It features secure authentication (JWT, OTP via Twilio/MSG91), cloud-based media handling (Cloudinary), and instant messaging through Socket.io. The frontend is mobile-first and responsive, powered by React, React Query, and Material-UI for optimized performance and user experience. The app supports role-based access control, in-app notifications, and automated CI/CD deployments via GitHub Actions and Vercel.",
+    tags: [
+      {
+        name: "MERN STACK + TYPESCRIPT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TWILIO/MSG91",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CLOUDINARY",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SOCKET.IO",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REACT QUERY",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MATERIAL-UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: uplive,
+    source_code_link:
+      "https://github.com/rituraj000/UPLIVE--The-Indian-Social-Media ",
+  },
+  {
     name: "Task Manager",
     description:
       "Designed and developed a full-stack Task Manager application using Node.js, Express, MongoDB, and React, featuring user authentication, task creation, updating, deletion, and user-specific task views. ",
@@ -215,10 +218,10 @@ const projects = [
         name: "Node.js",
         color: "blue-text-gradient",
       },
-       {
-      name: "JWT Authentication",
-      color: "blue-text-gradient",
-    },
+      {
+        name: "JWT Authentication",
+        color: "blue-text-gradient",
+      },
     ],
     image: tripguide,
     source_code_link: "https://github.com/rituraj000/Task-Manager",
@@ -244,15 +247,15 @@ const projects = [
         name: "MONGODB",
         color: "blue-text-gradient",
       },
-       {
-      name: "JWT Authentication",
-      color: "green-text-gradient",
-    },
+      {
+        name: "JWT Authentication",
+        color: "green-text-gradient",
+      },
     ],
     image: jobit,
     source_code_link: "https://github.com/rituraj000/IT-Solutions ",
   },
-  
+
   {
     name: "3-D Portfolio",
     description:
@@ -274,7 +277,6 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/rituraj000/3-d-portfolio ",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
