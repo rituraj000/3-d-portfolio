@@ -25,6 +25,7 @@ import {
   tripguide,
   threejs,
   ai,
+  task, 
 } from "../assets";
 
 export const navLinks = [
@@ -224,7 +225,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: task,
     source_code_link: "https://github.com/rituraj000/Task-Manager",
   },
 
