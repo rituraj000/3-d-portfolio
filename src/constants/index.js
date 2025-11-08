@@ -226,6 +226,37 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/rituraj000/Task-Manager",
   },
+
+ {
+    name: "AI - BOT",
+    description:
+    "A modern, full-stack AI chat application that delivers a seamless, real-time conversational experience. Built with the latest web technologies and powered by Google's cutting-edge Gemini 2.0 Flash model, Raj Bot demonstrates the integration of sophisticated AI into a polished, production-ready web application.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Type Script",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Server-Sent Events (SSE)",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google Gemini 2.0 Flash",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/rituraj000/Ai-Bot",
+  },
+
   {
     name: "IT-Solutions",
     description:
