@@ -19,6 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import ai from "./tech/Ai.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -52,6 +53,7 @@ export {
   redux,
   tailwind,
   typescript,
+  ai,
   threejs,
   meta,
   shopify,
