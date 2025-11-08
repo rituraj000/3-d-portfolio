@@ -24,6 +24,7 @@ import {
   uplive,
   tripguide,
   threejs,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -253,7 +254,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ai,
     source_code_link: "https://github.com/rituraj000/Ai-Bot",
   },
 
