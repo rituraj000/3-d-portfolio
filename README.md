@@ -65,17 +65,6 @@ Project structure (high level)
   - `assets/` — images and an export barrel (`index.js`)
   - `constants/index.js` — site/project data used by components
 
-Adding images and assets
-
-- Place images in `src/assets` (or `src/assets/tech`).
-- Export new images from `src/assets/index.js` so other modules can import them from the barrel:
-
-```js
-// src/assets/index.js
-import task from "./tech/task.png";
-export { task };
-```
-
 Troubleshooting
 
 - If an image works locally but fails on deployment, check filename casing — Linux hosts are case-sensitive. Keep imports matching the filename exactly.
